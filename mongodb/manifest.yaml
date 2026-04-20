@@ -29,8 +29,8 @@ spec:
 apiVersion: v1  
 kind: Service
 metadata: 
-  name: mongodb-service 
-  namespace: roboshop
+  name: mongodb
+  namespace: roboshop 
   labels:
        project: roboshop
        component: mongodb
