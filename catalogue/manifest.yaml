@@ -38,7 +38,7 @@ spec:
         - name: catalogue
           image: raviteja471/catalogue:1.0.0
           envFrom:
-          - ConfigMapRef:
+          - configMapRef:
               name: configmap-catalogue
 
 ---
