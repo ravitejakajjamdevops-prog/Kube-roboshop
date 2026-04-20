@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: configmap-catalogue
   namespace: roboshop
-  matchLabelsabels:
+  labels:
     project: roboshop
     component: catalogue
     environment: dev
